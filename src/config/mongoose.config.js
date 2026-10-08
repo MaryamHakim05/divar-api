@@ -1,6 +1,4 @@
 const dns = require("dns");
-dns.setServers(["8.8.8.8", "8.8.4.4"]);
-dns.setDefaultResultOrder("ipv4first");
 const { default: mongoose } = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
